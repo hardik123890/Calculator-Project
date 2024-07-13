@@ -1,0 +1,85 @@
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.outer{
+    /* border: 3px solid rgb(243, 7, 7); */
+    height: 500px;
+    width:400px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.916);
+    overflow: hidden;
+    border-radius: 25px;
+    
+    
+    
+}
+.button{
+    margin: 10px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.button-inner{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+}
+.button-equal{
+    width: 140px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+    
+    
+}
+.charcter{
+    background-color: orange;
+}
+/* .input-box{
+    height: 50px;
+} */
+#display{
+    height: 65px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.635); 
+    color:white;
+    font-size:50px;
+    font-family: cursive;
+    font-weight: bold;
+    
+    
+}
+.button-inner:hover{
+    background-color: rgba(128, 128, 128, 0.584);
+}
+.charcter:hover{
+    background-color: rgb(250, 187, 69);
+}
+
+.button-inner:active{
+    background-color: rgba(233, 47, 47, 0.584);
+}
+.charcter:active{
+    background-color: rgb(247, 213, 152)
+}
